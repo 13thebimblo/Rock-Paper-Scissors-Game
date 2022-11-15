@@ -1,12 +1,14 @@
 # Rock-Paper-Scissors-Game
 
-## Basic RPS simulator
+### Basic RPS simulator
 
-### *Tools used*
+## *Tools used*
 - Language: Java
 - Compiler: VSCode
 - Version: 0.0
 
+
+## Pseudocode
 1. Players Choose rock, paper, or scissors
 2. Count down and reveal choices on "shoot"
 3. Compare choices of players
