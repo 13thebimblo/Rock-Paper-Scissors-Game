@@ -15,7 +15,7 @@
         2. P - paper
         3. S - scissors
     2. Store choices
-        1. Prompt `Scanner` object `nestChar()`
+        1. Prompt `Scanner` object `nextChar()`
         2. `char playerOneChoice`
         3. `char playerTwoChoice`
 2. Count down and reveal choices on "shoot"
