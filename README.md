@@ -10,14 +10,14 @@
 
 ## Pseudocode
 1. Players choose rock, paper, or scissors
-    1. Represent choices with a `char`
-        1. R - rock
-        2. P - paper
-        3. S - scissors
+    1. Represent choices with a `int`
+        1. 1 - rock
+        2. 2 - paper
+        3. 3 - scissors
     2. Store choices
-        1. Prompt `Scanner` object `nextChar()`
-        2. `char playerOneChoice`
-        3. `char playerTwoChoice`
+        1. Prompt `Scanner` object `nextInt()`
+        2. `int playerOneChoice`
+        3. `int playerTwoChoice`
 2. Count down and reveal choices on "shoot"
     1. `Thread.sleep()` to artificially wait
 3. Compare choices of players
