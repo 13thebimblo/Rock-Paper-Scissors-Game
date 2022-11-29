@@ -90,28 +90,28 @@ public class App {
                 if (playerOneChoice > playerTwoChoice) {
                     System.out.println(Colors.ANSI_PURPLE + "Player One" + Colors.ANSI_GREEN + " wins! " + Colors.ANSI_RESET);
                     if (playerOneChoice == 2) {
-                        System.out.println(Colors.ANSI_CYAN + "Player Two " + Colors.ANSI_RED + "got smothered to death!" + Colors.ANSI_RESET);
+                        System.out.println(Colors.ANSI_CYAN + "Player Two " + Colors.ANSI_RED + "got smothered to death!" + Colors.ANSI_BLACK);
                     }
                     else {
-                        System.out.println(Colors.ANSI_CYAN + "Player Two " + Colors.ANSI_RED + "got snipped to death!" + Colors.ANSI_RESET);
+                        System.out.println(Colors.ANSI_CYAN + "Player Two " + Colors.ANSI_RED + "got snipped to death!" + Colors.ANSI_BLACK);
                     }
                 }
                 else {
-                    System.out.println("Player Two wins! ");
+                    System.out.println(Colors.ANSI_CYAN + "Player Two" + Colors.ANSI_GREEN + " wins! " + Colors.ANSI_RESET);
                     if (playerTwoChoice == 2) {
-                        System.out.println(Colors.ANSI_PURPLE + "Player One " + Colors.ANSI_RED + "got smothered to death!" + Colors.ANSI_RESET);
+                        System.out.println(Colors.ANSI_PURPLE + "Player One " + Colors.ANSI_RED + "got smothered to death!" + Colors.ANSI_BLACK);
                     }
                     else {
-                        System.out.println(Colors.ANSI_PURPLE + "Player One " + Colors.ANSI_RED + "got snipped to death!" + Colors.ANSI_RESET);
+                        System.out.println(Colors.ANSI_PURPLE + "Player One " + Colors.ANSI_RED + "got snipped to death!" + Colors.ANSI_BLACK);
                     }
                 }
             }
             else {
                 if (playerOneChoice == 1) {
-                    System.out.println(Colors.ANSI_PURPLE + "Player One " + Colors.ANSI_GREEN + "wins!" + Colors.ANSI_CYAN + "\nPlayer Two " + Colors.ANSI_RED + "got crushed to death!" + Colors.ANSI_RESET);
+                    System.out.println(Colors.ANSI_PURPLE + "Player One " + Colors.ANSI_GREEN + "wins!" + Colors.ANSI_CYAN + "\nPlayer Two " + Colors.ANSI_RED + "got crushed to death!" + Colors.ANSI_BLACK);
                 }
                 else {
-                    System.out.println(Colors.ANSI_CYAN + "Player Two " + Colors.ANSI_GREEN + "wins!" + Colors.ANSI_PURPLE + "\nPlayer One " + Colors.ANSI_RED + "got crushed to death!" + Colors.ANSI_RESET);
+                    System.out.println(Colors.ANSI_CYAN + "Player Two " + Colors.ANSI_GREEN + "wins!" + Colors.ANSI_PURPLE + "\nPlayer One " + Colors.ANSI_RED + "got crushed to death!" + Colors.ANSI_BLACK);
                 }
             }
 
