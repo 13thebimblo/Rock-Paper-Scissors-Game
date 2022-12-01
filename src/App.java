@@ -48,7 +48,7 @@ public class App {
 
 
 
-            // TODO: Count down, reveal choices
+            // Count down, reveal choices
             System.out.println(Colors.ANSI_RED + "Rock..." + Colors.ANSI_RESET);
             Thread.sleep(1000);
             System.out.println(Colors.ANSI_YELLOW + "Paper..." + Colors.ANSI_RESET);
@@ -81,7 +81,7 @@ public class App {
             printSpace(1);
             
 
-            // TODO: Identify the winner!
+            // Identify the winner!
             if (playerOneChoice == playerTwoChoice) {
                 System.out.println(Colors.ANSI_YELLOW + "It's a tie! Let's play again to see who wins!" + Colors.ANSI_RESET);
                 printSpace(3);
@@ -123,10 +123,7 @@ public class App {
 
     // Space printing method
     public static void printSpace(int times) {
-        do {
-        System.out.print("\n");
-        times--;
-        } while (times > 0);
+        System.out.print("\n".repeat(times));
     }
 
 }
